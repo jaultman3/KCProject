@@ -27,11 +27,11 @@ public class Pet{
 	public Pet() {
 		this.status = State.NORMAL;
 		this.hunger = 10;
-		this.icon1 = new ImageIcon("src/dead.png");
-		this.icon2 = new ImageIcon("src/eating.png");
-		this.icon3 = new ImageIcon("src/laughing.png");
-		this.icon4 = new ImageIcon("src/normal.png");
-		this.icon5 = new ImageIcon("src/sleeping.png");
+		this.icon1 = new ImageIcon("Images/dead.png");
+		this.icon2 = new ImageIcon("Images/eating.png");
+		this.icon3 = new ImageIcon("Images/laughing.png");
+		this.icon4 = new ImageIcon("Images/normal.png");
+		this.icon5 = new ImageIcon("Images/sleeping.png");
 		image = new ImageIcon();
 	}
 	/**
